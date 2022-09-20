@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.sponsor_container{
+    /* display: flex;
+    height: 50vh;
+    width: 100%; */
+
+}
+
+
+.sponsors_logo{
+    display: grid;
+    grid-template: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10rem;
+    row-gap: 5.5rem;
+    margin: 8rem;
+}
